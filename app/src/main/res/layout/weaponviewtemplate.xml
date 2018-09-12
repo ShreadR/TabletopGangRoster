@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/weaponName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="weaponName"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:typeface="monospace"
+        app:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/weaponStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="weaponStats"
+        android:typeface="monospace"
+        app:fontFamily="monospace" />
+
+</LinearLayout>

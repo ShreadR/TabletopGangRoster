@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditStats">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/movement"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/weaponSkill"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/ballisticSkill"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/strength"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/toughness"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/wounds"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/initiative"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/attacks"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/leadership"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/cool"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/will"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/intelligence"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <Button
+        android:id="@+id/buttonMovementIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:onClick="clickMovementIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textMovement"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text='x"'
+        app:layout_constraintStart_toEndOf="@+id/buttonMovementIncrease"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMovementDecrement"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="clickMovementDecrease"
+        android:padding="7dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/textMovement"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonWSIncrement"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWSIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMovementIncrease" />
+
+    <TextView
+        android:id="@+id/textWeaponSkill"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x+"
+        app:layout_constraintStart_toEndOf="@+id/buttonWSIncrement"
+        app:layout_constraintTop_toBottomOf="@+id/textMovement" />
+
+    <Button
+        android:id="@+id/buttonWSDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWSDecrease"
+        android:padding="7dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/textWeaponSkill"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMovementDecrement" />
+
+    <Button
+        android:id="@+id/buttonBSIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickBSIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWSIncrement" />
+
+    <TextView
+        android:id="@+id/textBallisticSkill"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x+"
+        app:layout_constraintStart_toEndOf="@+id/buttonBSIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textWeaponSkill" />
+
+    <Button
+        android:id="@+id/buttonBSDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="clickBSDecrease"
+        android:padding="7dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/textBallisticSkill"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWSDecrease" />
+
+    <Button
+        android:id="@+id/buttonSIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickSIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBSIncrease" />
+
+    <TextView
+        android:id="@+id/textStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x"
+        app:layout_constraintStart_toEndOf="@+id/buttonSIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textBallisticSkill" />
+
+    <Button
+        android:id="@+id/buttonSDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickSDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textStrength"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBSDecrease" />
+
+    <Button
+        android:id="@+id/buttonTIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickTIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSIncrease" />
+
+    <TextView
+        android:id="@+id/textToughness"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x"
+        app:layout_constraintStart_toEndOf="@+id/buttonTIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textStrength" />
+
+    <Button
+        android:id="@+id/buttonTDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickTDecrease"
+        android:padding="7dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/textToughness"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSDecrease" />
+
+    <Button
+        android:id="@+id/buttonWIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTIncrease" />
+
+    <TextView
+        android:id="@+id/textWounds"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x"
+        app:layout_constraintStart_toEndOf="@+id/buttonWIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textToughness" />
+
+    <Button
+        android:id="@+id/buttonWDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textWounds"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTDecrease" />
+
+    <Button
+        android:id="@+id/buttonIIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickIIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWIncrease" />
+
+    <TextView
+        android:id="@+id/textInitiative"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x"
+        app:layout_constraintStart_toEndOf="@+id/buttonIIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textWounds" />
+
+    <Button
+        android:id="@+id/buttonIDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickIDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textInitiative"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWDecrease" />
+
+    <Button
+        android:id="@+id/buttonAIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickAIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIIncrease" />
+
+    <TextView
+        android:id="@+id/textAttacks"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="x"
+        app:layout_constraintStart_toEndOf="@+id/buttonAIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textInitiative" />
+
+    <Button
+        android:id="@+id/buttonADecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickADecrease"
+        android:padding="7dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/textAttacks"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIDecrease" />
+
+    <Button
+        android:id="@+id/buttonLIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickLIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAIncrease" />
+
+    <TextView
+        android:id="@+id/textLeadership"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="xx+"
+        app:layout_constraintStart_toEndOf="@+id/buttonLIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textAttacks" />
+
+    <Button
+        android:id="@+id/buttonLDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickLDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textLeadership"
+        app:layout_constraintTop_toBottomOf="@+id/buttonADecrease" />
+
+    <Button
+        android:id="@+id/buttonCIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickCIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLIncrease" />
+
+    <TextView
+        android:id="@+id/textCool"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="xx+"
+        app:layout_constraintStart_toEndOf="@+id/buttonCIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textLeadership" />
+
+    <Button
+        android:id="@+id/buttonCDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickCDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textCool"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLDecrease" />
+
+    <Button
+        android:id="@+id/buttonWillIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWillIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCIncrease" />
+
+    <TextView
+        android:id="@+id/textWill"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="xx+"
+        app:layout_constraintStart_toEndOf="@+id/buttonWillIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/textCool" />
+
+    <Button
+        android:id="@+id/buttonWillDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickWillDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textWill"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCDecrease" />
+
+    <Button
+        android:id="@+id/buttonIntIncrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickIntIncrease"
+        android:padding="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWillIncrease" />
+
+    <TextView
+        android:id="@+id/textIntelligence"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="xx+"
+        app:layout_constraintStart_toEndOf="@+id/buttonIntIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWillDecrease" />
+
+    <Button
+        android:id="@+id/buttonIntDecrease"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickIntDecrease"
+        android:text="-"
+        android:padding="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textIntelligence"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWillDecrease" />
+</android.support.constraint.ConstraintLayout>

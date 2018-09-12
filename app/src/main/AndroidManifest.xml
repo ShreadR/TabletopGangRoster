@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shread.robert.tabletopgangroster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Create_Gang" />
+        <activity
+            android:name=".Manage_Gang"
+            android:label="@string/title_activity_manage__gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Edit_Gang" />
+        <activity android:name=".Delete_Gang" />
+        <activity android:name=".Create_Fighter" />
+        <activity android:name=".View_Fighter" />
+        <activity android:name=".EditWeapons" />
+        <activity android:name=".AddNewWeapon" />
+        <activity android:name=".RemoveWeapon" />
+        <activity android:name=".EditSkills" />
+        <activity android:name=".AddSkill" />
+        <activity android:name=".RemoveSkill" />
+        <activity android:name=".AddWargear" />
+        <activity android:name=".EditWargear" />
+        <activity android:name=".RemoveWargear" />
+        <activity android:name=".EditStats"></activity>
+    </application>
+
+</manifest>

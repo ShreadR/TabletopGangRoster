@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_names">
+        <!-- Listing all possible Houses / Gangs, which can be uncommented as they are added to the game -->
+        <item>Escher</item>
+        <item>Goliath</item>
+        <item>Orlock</item>
+        <item>Van Saar</item>
+        <item>Delaque</item>
+        <item>Cawdor</item>
+        <item>Genestealer Cult</item>
+        <!--item>Chaos Cult</item-->
+        <!--item>Venators</item-->
+    </string-array>
+</resources>
